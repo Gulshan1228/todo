@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#screen{
+    font-size: 25px;
+    height: 100vh;
+    width :100%;
+    background-image: url(assets/bg.jpg);
+    background-position: center;
+    background-size: cover; 
+    display: block;
+    filter: brightness(125%);
+}
+#app{
+    width: 60%;
+    padding-top: 65px;
+    line-height: 2.2;
+}
+h1{
+    font-size : 55px;
+    font-weight : bolder;
+    letter-spacing : 0.2mm;
+    padding: 50px;
+    padding-bottom: 40px;
+}
+input{
+    width:100%;
+    border-radius : 5px;
+    background: transparent;
+}
+button{
+    width : 100%;
+    border-radius:10px;
+}
+
+#first div, #second div{
+    text-align: start;
+}
